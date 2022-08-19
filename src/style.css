@@ -507,6 +507,10 @@ nav .menu{
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
+.social {
+    display: flex !important;
+    align-items: center !important;
+}
 .navbar{
 	padding: 15px;
 }
@@ -732,6 +736,10 @@ img.story-img5.aos-init.aos-animate {
       font-size: 14px !important;
       font-weight: 400;
   }
+  .social {
+    display: flex !important;
+    align-items: center !important;
+}
   .common-btn, .small-para {
       font-size: 11px !important;
   }
