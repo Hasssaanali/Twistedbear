@@ -2,7 +2,7 @@ export const nav = [
 
     {
     id:"#story",
-    name:"Story"
+    name:"Storiess"
     },
     {
     id:"#rarity",
