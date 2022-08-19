@@ -615,70 +615,224 @@ nav .menu{
     overflow: hidden;
 }
   
-  @media screen and (max-width: 1440px){
-      .slider{
-          max-width: 1200px !important;
-      }
-      .w-50 { width: 60%!important;}
-      
-      .col-xxl-10.d-flex.position-relative.story_section.d-xl-block img {
-    position: absolute;
-        top: -325px;
-    width: 272px;
-    left: 500px;
-}
-img.story-img2.aos-init.aos-animate {
-    left: 243px !important;
-}
-
-img.story-img.aos-init.aos-animate {
-       left: 40px !important;
-    width: 285px !important;
-}
-img.story-img3.aos-init.aos-animate {
-    left: 465px !important;
-}
-img.story-img4.aos-init.aos-animate {
-    left: 665px !IMPORTANT;
-}
-img.story-img5.aos-init.aos-animate {
-    left: 900px !important;
-}
-img.story-img5.aos-init.aos-animate {
-        left: 850px !important;
-    width: 230px !important;
-}
-  }
-
-  @media screen and (max-width: 480px){
+@media screen and (max-width: 1440px){
     .slider{
         max-width: 1200px !important;
     }
-    .svg{
-        display: none !important;
-    }
-    .navbar-brand, .navbar{
-        padding: 0 !important;
-    }
-    .mynav .col-12{
-        padding-left: 0 !important;
-    }
-    .mynav{
-        padding-left:0 !important;
-    }
-    div#navbarSupportedContent {
-        padding-left: 25px;
-        padding-top: 15px;
-    }
-    .hero-heading {
-        font-size: 62px;
-    }
-    .heroimg {
-        text-align: center;
-        padding-top: 48px;
-    }
-    .heroimg img{
-        width: 100%;
-    }
+    .mobile{
+      display: none !important;
+  }
+    .w-50 { width: 60%!important;}
+    
+    .col-xxl-10.d-flex.position-relative.story_section.d-xl-block img {
+  position: absolute;
+      top: -325px;
+  width: 272px;
+  left: 500px;
 }
+img.story-img2.aos-init.aos-animate {
+  left: 243px !important;
+}
+
+img.story-img.aos-init.aos-animate {
+     left: 40px !important;
+  width: 285px !important;
+}
+img.story-img3.aos-init.aos-animate {
+  left: 465px !important;
+}
+img.story-img4.aos-init.aos-animate {
+  left: 665px !IMPORTANT;
+}
+img.story-img5.aos-init.aos-animate {
+  left: 900px !important;
+}
+img.story-img5.aos-init.aos-animate {
+      left: 850px !important;
+  width: 230px !important;
+}
+}
+
+@media screen and (max-width: 480px){
+  .slider{
+      max-width: 345px !important;
+  }
+  /* .svg{
+      display: none !important;
+  } */
+  .navbar-brand, .navbar{
+      padding: 0 !important;
+  }
+  .mynav .col-12{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+  .mynav{
+      padding-left:10px !important;
+      padding-right: 10px !important;
+  }
+  div#navbarSupportedContent {
+      padding-left: 0px;
+      padding-top: 0px;
+  }
+  .hero-heading {
+      font-size: 62px;
+  }
+  .heroimg {
+      text-align: center;
+      padding-top: 48px;
+  }
+  .heroimg img{
+      width: 100%;
+  }
+  .desktop{
+      display: none !important;
+  }
+  .navbar-brand img {
+      width: auto;
+      display: block;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+      width: 100%;
+  }
+  .navbar-brand{
+      width: 48% !important;
+      padding-top: 5px !IMPORTANT;
+  }
+  nav svg{
+      width: 26px  !important;
+  }
+  .svg.grow img{
+      width: 23px !important;
+  }
+  .story {
+      padding-bottom: 150px;
+      padding-top: 80px;
+  }
+  img.story-img.aos-init.aos-animate {
+      left: 40px !important;
+      width: 100% !important;
+  }
+  .rarity h2 {
+      font-size: 70px !important;
+  }
+  .myboxes .d-flex.justify-content-center.flex-xxl-nowrap.flex-wrap {
+      -ms-flex-wrap: unset!important;
+      flex-wrap: unset !important;
+      overflow-y: scroll;
+      justify-content: flex-start !important;
+  }
+  .rarity-card {
+    width: 190px;
+}
+  .roadmap h2 {
+      font-size: 70px !important;
+  }
+  .roadmap h2.small-heading {
+      font-size: 14px !important;
+      font-weight: 400;
+  }
+  .common-btn, .small-para {
+      font-size: 11px !important;
+  }
+  .roadmap .col-2.text-center {
+      padding-top: 80px;
+  }
+  .slick-slide {
+      float: left;
+      height: 100%;
+      min-height: 1px;
+      width: 335px !important;
+  }
+  label {
+      font-family: 'a Alloy Ink', sans-serif;
+      font-size: 20px;
+      color: #212529;
+  }
+  .tab-content {
+      max-height: 0;
+      padding: 0 1em;
+      color: #212529;
+      background: transparent;
+      transition: all 0.35s;
+      font-family: 'Varela Round', sans-serif !important;
+      width: 350px;
+      font-size: 16px;
+      font-weight: 800;
+      padding-left: 40px !important;
+  }
+  .roadmap.discord.fade-up h2{
+      font-size: 26px !important;
+  }
+  .community-btn {
+      font-size: 22px !important;
+  }
+  .community-btn span {
+      margin-right: 15px;
+      padding-top: 12px !important;
+  }
+  .roadmap {
+      padding-bottom: 80px !important;
+  }
+  .logo-svg{
+      position: relative;
+      left:30% !important;
+      top:40% !important;
+      margin: -75px 0px 0px -75px;
+      width: 75% !important;
+      z-index: 1001;
+    }
+    div#navbarSupportedContent{
+        background: #C8EAC9;
+    }
+    div#navbarSupportedContent a{
+        color: #000 !important;
+    }
+    .twisted{
+        padding-bottom: 80px;
+    }
+    .w-50 {
+        width: 100% !important;
+    }
+    .rarity {
+        padding-bottom: 100px;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        justify-content: space-between;
+    }
+    .social li {
+        width: 50px;
+    }
+    /* width */
+::-webkit-scrollbar {
+    width: 0px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent !important;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent !important;
+  }
+  .logo-svg1 {
+    position: relative;
+    left: 40% !important;
+    top: 40% ;
+    margin: -80px 0px 0px -80px;
+    width: 60% !important;
+    z-index: 1001;
+}
+}
+
 

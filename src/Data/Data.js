@@ -30,11 +30,51 @@ export const mainsection = [
     }
 ]
 
+export const storymob = [
+
+    {
+        storyimage: "../img/story.png"
+    }
+]
+
 
 export const story = [
     {
     content1:"Twisted Bears is a collection of 5,555 unique Twisted NFT's created from 5 Base Characters and over 400 traits. Each Base character has its own unique set of traits that makes every single NFT Unique and identifiable.",
     content2:"Twisted Bears lives on the Ethereum Blockchain. The collection will be used to breed and create a New 3D NFT Collection. By Minting 2 Twisted Bear NFTs you will be classNameed as a breeder and you will be rewarded for holding with a Free 3D NFT.",
+    },
+]
+
+export const rarity = [
+    {
+    class:"rarity-card bg-yellow pt-4",
+    title:"Gangster",
+    existence:"30% Existence",
+    image:"../img/gangster.png"
+    },
+    {
+    class:"rarity-card bg-green pt-4",
+    title:"Assassin",
+    existence:"25% Existence",
+    image:"../img/error.png"
+    },
+    {
+    class:"rarity-card bg-sky-blue pt-4",
+    title:"Clown",
+    existence:"22.5% Existence",
+    image:"../img/clown.png"
+    },
+    {
+    class:"rarity-card bg-purple pt-4",
+    title:"Zombie",
+    existence:"17.5% Existence",
+    image:"../img/zombie.png"
+    },
+    {
+    class:"rarity-card bg-pink pt-4",
+    title:"Robot",
+    existence:"5% Existence",
+    image:"../img/robot.png"
     },
 ]
 
