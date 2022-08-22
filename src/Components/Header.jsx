@@ -22,7 +22,7 @@ export default function Header() {
 
                 {nav.map((data) => {
                     return (
-                <span>
+                <span key={data.key}>
                   <li className="nav-item menu">
                     <a className="nav-link menu" href={data.id} >{data.name}</a>
                   </li>

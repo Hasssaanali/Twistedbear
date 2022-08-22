@@ -1,3 +1,4 @@
+import { keyboard } from '@testing-library/user-event/dist/keyboard'
 import React, { Fragment } from 'react'
 import { mainsection } from '../Data/Data'
 
@@ -18,7 +19,7 @@ export default function Mainbanner() {
 
                     {mainsection.map((data) => {
                     return (
-                        <div className="container py-sm-5 py-4">
+                        <div className="container py-sm-5 py-4" key={data.id}>
                             <div className="row justify-content-center">
                                 <div className="col-lg-12 heroimg text-center " data-aos="zoom-in" data-aos-delay="200" data-aos-duration="2000">
                                     <img src={data.bannerimage} width="90%" />

@@ -8,7 +8,7 @@ import Slider from '../Components/Slider'
 import Accordion from '../Components/Accordion'
 import Discordlink from '../Components/Discordlink'
 import Footer from '../Components/Footer'
-
+import { accordion } from '../Data/Data'
 
 
 export default function Home() {
@@ -20,7 +20,8 @@ export default function Home() {
       <Rarity />
       <Roadmap />
       <Slider />
-      <Accordion />
+      
+      <Accordion passingdata={accordion}/>
       <Discordlink />
       <Footer />
    </Fragment>

@@ -18,7 +18,7 @@ export default function () {
 
           {roadmap.map((data) => {
           return (
-            <div className="row">
+            <div className="row" key={data.id}>
               <div className="col-2 text-center">
                 <div className="d-flex flex-column align-items-center">
                   <div><img className="roadmap-img" src="img/r1.png" alt="" /></div>

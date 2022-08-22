@@ -1,22 +1,27 @@
 export const nav = [
 
     {
+    key:"1",
     id:"#story",
     name:"Storiess"
     },
     {
+    key:"2",
     id:"#rarity",
     name:"Rarity"
     },
     {
+    key:"3",
     id:"#roadmap",
     name:"Roadmap"
     },
     {
+    key:"4",
     id:"#team",
     name:"Team"
     },
     {
+    key:"5",
     id:"#faq",
     name:"Faq"
     },
@@ -26,6 +31,7 @@ export const nav = [
 export const mainsection = [
 
     {
+        id:"banner",
         bannerimage: "../img/heroimg.png"
     }
 ]
@@ -40,6 +46,7 @@ export const storymob = [
 
 export const story = [
     {
+    id:"storyimage",
     content1:"Twisted Bears is a collection of 5,555 unique Twisted NFT's created from 5 Base Characters and over 400 traits. Each Base character has its own unique set of traits that makes every single NFT Unique and identifiable.",
     content2:"Twisted Bears lives on the Ethereum Blockchain. The collection will be used to breed and create a New 3D NFT Collection. By Minting 2 Twisted Bear NFTs you will be classNameed as a breeder and you will be rewarded for holding with a Free 3D NFT.",
     },
@@ -47,30 +54,35 @@ export const story = [
 
 export const rarity = [
     {
+        id:"r1",
     class:"rarity-card bg-yellow pt-4",
     title:"Gangster",
     existence:"30% Existence",
     image:"../img/gangster.png"
     },
     {
+        id:"r2",
     class:"rarity-card bg-green pt-4",
     title:"Assassin",
     existence:"25% Existence",
     image:"../img/error.png"
     },
     {
+        id:"r3",
     class:"rarity-card bg-sky-blue pt-4",
     title:"Clown",
     existence:"22.5% Existence",
     image:"../img/clown.png"
     },
     {
+        id:"r4",
     class:"rarity-card bg-purple pt-4",
     title:"Zombie",
     existence:"17.5% Existence",
     image:"../img/zombie.png"
     },
     {
+        id:"r5",
     class:"rarity-card bg-pink pt-4",
     title:"Robot",
     existence:"5% Existence",
@@ -81,31 +93,37 @@ export const rarity = [
 
 export const roadmap = [
     {
+        id:"ro1",
         class: "bg-purple p-sm-3 p-2 border-radius-10",
         heading: "The Lab - Phase 1",
         content: "Twisted Bears were created by two genius scientists as an experiment for the Metaverse and are in search of their owners. Twisted Bears are made from 5 Base Characters with over 400 traits. Each Base character has its own unique set of traits that makes every single NFT Unique and valuable. Most NFT Collections are made from 1 base character and around 200 traits, but not us! TB are different, we are Twisted Bears and we do things our way."
     },
     {
+        id:"ro2",
         class: "bg-pink p-sm-3 p-2 border-radius-10",
         heading: "Twisted Bear Mutation ERC721A - Phase 2",
         content: "On the release of the Twisted Bear Mint day you will see our twisted developers have modified the standard IERC-721 Contract to ERC-721A. ERC721A is an implementation of IERC721 with significant gas savings for minting multiple NFTs in a single transaction. The Twisted Bears contract will enable minting multiple NFTs for essentially the same cost of minting a single NFT"
     },
     {
+        id:"ro3",
         class: "bg-sky-blue p-sm-3 p-2 border-radius-10",
         heading: "Breeding - Phase 3",
         content: "Twisted Bears can be used to breed and create a new NFT Collection. By holding 2 Twisted Bear NFTs you can be rewarded for holding and breeding your NFT’s for a unique future NFT collection. It goes without saying that the rarer your bears are the more valuable your future drop will be. Create your own twisted family experiment and watch them grow into something unique ready for the next phase of the Roadmap.The benefit of holding 2 Twisted Bear NFT's will guarantee you to get one of our 3D Twisted Bears for Free from our next collection. We will release more information on this and you might be lucky enough to catch a glimpse of one in our sneak peek channel on Discord"
     },
     {
+        id:"ro4",
         class: "bg-green p-sm-3 p-2 border-radius-10",
         heading: "$BEAR - Phase 4",
         content: "Your Twisted Bear journey has started which means you have an opportunity to work for the Twisted Bear Rewards System. If you’re lucky enough to mint a Twisted Bear then you will get access to regular royalty payment giveaways and mystery airdrops. Our scientific developers will create a $BEAR ERC-20 token rewarding our most contributing members and holders."
     },
     {
+        id:"ro5",
         class: "bg-purple p-sm-3 p-2 border-radius-10",
         heading: "Entering the Metaverse - Phase 5",
         content: "Our Twisted Bear community is invited to join us in the Metaverse to gain access to Play to Earn gaming & virtual experiences, creating assets and gaming events on the blockchain. Our scientists have created 5 areas of land for each of the Twisted Bear community. Holders will have access to play to earn $BEAR Interactive games allowing access to be truly exclusive. Last but not least a Twisted place to display your NFT’s all within the Twisted Bear eco system, a social area in the metaverse for the whole community to hang out."
     },
     {
+        id:"ro6",
         class: "bg-pink p-sm-3 p-2 border-radius-10",
         heading: "Twisted Bears Play to Earn",
         content: "to be unlocked after unlocking Phase 4"

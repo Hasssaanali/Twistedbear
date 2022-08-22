@@ -36,7 +36,7 @@ export default function Story() {
                 </h2>
                 {story.map((data) => {
                     return (
-                <span>       
+                <span key={data.id}>       
                 <p className="ff-odin-light fw-bold font-xs text-center mb-2">{data.content1} </p>
                 <p className="ff-odin-light fw-bold font-xs text-center">{data.content2}</p>
                 </span>
