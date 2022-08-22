@@ -13,10 +13,10 @@ export default function Slider() {
           <div className="row">
 
          
-            <div className="slider" data-aos="flip-up" data-aos-delay="200" data-aos-duration="2000">
+            <div className="slider" >
             {slider.map((data) => {
           return (
-              <div className="px-2" style={{ width: "100%" }} key={data.id}>
+              <div className="px-2" key={data.id} style={{ width: "100%" }} >
                 <div className={data.class}>
                   <div className="d-flex align-items-center">
                     <img className="w-25" src={data.image} alt="" />
